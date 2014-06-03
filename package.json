@@ -6,9 +6,10 @@
   "author": "Pelle Almquist <per.almquist@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "revalidator": "^0.1.8",
+    "JSV": "^4.0.2",
     "express-schema-validator": "0.0.4",
+    "joi": "^4.5.0",
     "paperwork": "^2.0.1",
-    "JSV": "^4.0.2"
+    "revalidator": "^0.1.8"
   }
 }
