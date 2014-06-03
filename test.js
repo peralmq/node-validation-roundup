@@ -29,6 +29,11 @@ var validators = {
   esv: function () {
     var validator = require('express-schema-validator');
     validator.validate(someObject, {a: {type: String}}, function(err, result){});
+  },
+
+  joi: function () {
+    var joi = require('joi');
+    joi.validate(someObject, joi.object().keys({ a: joi.string() }), function (err, result) {});
   }
 };
 
